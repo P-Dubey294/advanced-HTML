@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label for = "name">Name</label>
+    <input type="text" name ="name" placeholder="name" required>
+    <br><br>
+    
+    <lable for ="Email">Email</lable>
+    <input type ="email" name="email"placeholder="email"required>
+    <br><br>
+
+    <lable for ="password">password</lable>
+    <input type ="password" name="password"placeholder="password"required>
+    <br><br>
+    <lable for ="Filetype">File</lable>
+    <input type ="file" name="File"placeholder="file"required>
+    <br><br>
+    <lable for ="color">Color</Lable>
+    <input type = "color" name ="color" id="mycolor" placeholder="color" required>
+    <br><br>
+    <input type ="submit" onclick="xyz()">
+    </form>
+     <script>
+      function xyz(){
+        event.preventDefault()
+        let a = document.getElementById('mycolor').value document.body.style.backgroundColor=a
+      }
+     </script>
+    <h1>CHECKBOX</h1>
+    <lable for ="edu">Personal Eduation</lable>
+    <br><br>
+    <input type ="checkbox">
+    <label>SSLC</label>
+    <br><br>
+    <input type ="checkbox">
+    <label>C Shrap</label>
+    <br><br>
+    <input type ="checkbox">
+    <label>Parallel and Distributing</label>
+    <br><br>
+      
+
+</body>
+</html>
